@@ -1,5 +1,4 @@
 import { test, expect } from "../../fixtures";
-
 const postData = require('../../testData/postData.json');
 
 test.describe('New API Test', () => {
