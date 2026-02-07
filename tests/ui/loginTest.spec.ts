@@ -1,5 +1,5 @@
-import { expect, test } from "../fixtures";
-import { LoginUtils } from "../utils/loginUtils";
+import { expect, test } from "../../fixtures";
+import { LoginUtils } from "../../utils/uiUtils";
 
 test.describe('Login Test', () => {
     test('should login successfully @smoke', async ({ homePage }) => {
