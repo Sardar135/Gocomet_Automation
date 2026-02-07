@@ -1,0 +1,28 @@
+{
+  "name": "gocomet_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoke": "npx playwright test --project=chromium --grep @smoke",
+    "regression": "npx playwright test --project=chromium --grep @regression",
+    "all": "npx playwright test --project=chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sardar135/Gocomet_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sardar135/Gocomet_Automation/issues"
+  },
+  "homepage": "https://github.com/Sardar135/Gocomet_Automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.1",
+    "dotenv": "^17.2.4"
+  }
+}
